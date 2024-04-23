@@ -890,7 +890,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 608.0, 1142.0, 92.0, 22.0 ],
-					"presentation_linecount" : 2,
 					"text" : "0, 3000 180000"
 				}
 
@@ -952,7 +951,6 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 37.0, 242.0, 48.0, 35.0 ],
-									"presentation_linecount" : 2,
 									"text" : "route symbol"
 								}
 
@@ -2519,7 +2517,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 59.0, 95.0, 77.0, 22.0 ],
-					"text" : "loadmess 13"
+					"text" : "loadmess 14"
 				}
 
 			}
