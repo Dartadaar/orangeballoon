@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 59.0, 81.0, 640.0, 480.0 ],
+		"rect" : [ 59.0, 55.0, 640.0, 506.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 13.0,
@@ -21,7 +21,7 @@
 		"gridsnaponopen" : 1,
 		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
-		"toolbarvisible" : 1,
+		"toolbarvisible" : 0,
 		"lefttoolbarpinned" : 0,
 		"toptoolbarpinned" : 0,
 		"righttoolbarpinned" : 0,
@@ -29,8 +29,8 @@
 		"toolbars_unpinned_last_save" : 0,
 		"tallnewobj" : 0,
 		"boxanimatetime" : 200,
-		"enablehscroll" : 1,
-		"enablevscroll" : 1,
+		"enablehscroll" : 0,
+		"enablevscroll" : 0,
 		"devicewidth" : 0.0,
 		"description" : "",
 		"digest" : "",
@@ -131,7 +131,7 @@
 					"fontsize" : 9.276149999999999,
 					"hint" : "",
 					"id" : "obj-26",
-					"items" : [ "None", ",", "Audient iD44", ",", "Hue Sync Audio", ",", "NDI Audio", ",", "Mikrofon (MacBook Air)", ",", "Dolby Audio Bridge", ",", "Microsoft Teams Audio", ",", "WebexMediaAudioDevice", ",", "ZoomAudioDevice" ],
+					"items" : [ "None", ",", "Hue Sync Audio", ",", "NDI Audio", ",", "Mikrofon (MacBook Air)", ",", "Dolby Audio Bridge", ",", "Microsoft Teams Audio", ",", "WebexMediaAudioDevice", ",", "ZoomAudioDevice" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -177,7 +177,7 @@
 					"fontsize" : 9.276149999999999,
 					"hint" : "",
 					"id" : "obj-3",
-					"items" : [ "None", ",", "Audient iD44", ",", "Hue Sync Audio", ",", "Głośniki (MacBook Air)", ",", "Dolby Audio Bridge", ",", "Microsoft Teams Audio", ",", "NDI Audio", ",", "WebexMediaAudioDevice", ",", "ZoomAudioDevice" ],
+					"items" : [ "None", ",", "Hue Sync Audio", ",", "Głośniki (MacBook Air)", ",", "Dolby Audio Bridge", ",", "Microsoft Teams Audio", ",", "NDI Audio", ",", "WebexMediaAudioDevice", ",", "ZoomAudioDevice" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -237,7 +237,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 212.0, 102.0, 29.5, 23.0 ],
-					"text" : "4"
+					"text" : "0"
 				}
 
 			}
