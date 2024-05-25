@@ -40,6 +40,35 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-76",
+					"linecount" : 5,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 344.0, 1249.5, 89.0, 79.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 160.0, 780.0, 230.0, 36.0 ],
+					"text" : "OSC message:\n/live/New_Cuelist/001_Cue_1/activate"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-45",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 329.0, 1234.5, 88.0, 36.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 8.0, 733.0, 148.0, 21.0 ],
+					"text" : "Light console address:"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-75",
 					"maxclass" : "toggle",
 					"numinlets" : 1,
@@ -70,7 +99,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1019.0, -39.0, 46.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1178.0, 788.0, 50.0, 21.0 ],
+					"presentation_rect" : [ 1178.0, 788.0, 48.0, 21.0 ],
 					"text" : "output"
 				}
 
@@ -271,7 +300,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 17.0, 54.0, 180.0, 23.0 ],
+					"patching_rect" : [ 17.0, 49.5, 180.0, 23.0 ],
 					"text" : "route /nextcue /prevcue /reset"
 				}
 
@@ -282,7 +311,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 95.0, 22.0, 34.0, 23.0 ],
+					"patching_rect" : [ 95.0, 16.0, 34.0, 23.0 ],
 					"text" : "print"
 				}
 
@@ -319,7 +348,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 125.0, 235.0, 176.0, 50.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1233.0, 65.0, 89.0, 50.0 ],
+					"presentation_rect" : [ 1233.0, 65.0, 94.0, 50.0 ],
 					"style" : "rnbomonokai",
 					"text" : "reset"
 				}
@@ -338,7 +367,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 125.0, 323.0, 104.0, 56.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1004.0, 427.0, 122.0, 56.0 ]
+					"presentation_rect" : [ 1233.0, 427.0, 94.0, 56.0 ]
 				}
 
 			}
@@ -387,7 +416,7 @@
 					"patching_rect" : [ 199.0, 1245.0, 57.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 95.0, 763.0, 55.0, 21.0 ],
-					"text" : "set port"
+					"text" : "port"
 				}
 
 			}
@@ -400,7 +429,7 @@
 					"patching_rect" : [ 38.0, 1245.0, 44.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 17.0, 763.0, 44.0, 21.0 ],
-					"text" : "set IP"
+					"text" : "IP"
 				}
 
 			}
@@ -2586,9 +2615,9 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 894.0, 958.0, 108.0, 50.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 17.0, 366.0, 110.0, 50.0 ],
+					"presentation_rect" : [ 17.0, 366.0, 98.0, 50.0 ],
 					"style" : "rnbomonokai",
-					"text" : "levels:"
+					"text" : "levels"
 				}
 
 			}
@@ -2602,7 +2631,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 749.0, 102.0, 176.0, 94.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 738.0, 65.0, 246.0, 50.0 ],
+					"presentation_rect" : [ 738.0, 65.0, 222.0, 50.0 ],
 					"style" : "rnbomonokai",
 					"text" : "guitar in level"
 				}
@@ -2707,42 +2736,6 @@
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 429.0, 54.0, 50.0, 23.0 ],
 					"text" : "adc~ 1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"basictuning" : 440,
-					"data" : 					{
-						"clips" : [ 							{
-								"absolutepath" : "Macintosh HD:/Users/dartadaar/GitHub/orangeballoon/audio/guitar.wav",
-								"filename" : "guitar.wav",
-								"filekind" : "audiofile",
-								"id" : "u866001161",
-								"loop" : 0,
-								"content_state" : 								{
-
-								}
-
-							}
- ]
-					}
-,
-					"followglobaltempo" : 0,
-					"formantcorrection" : 0,
-					"id" : "obj-34",
-					"maxclass" : "playlist~",
-					"mode" : "basic",
-					"numinlets" : 1,
-					"numoutlets" : 5,
-					"originallength" : [ 0.0, "ticks" ],
-					"originaltempo" : 120.0,
-					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 484.0, 46.0, 150.0, 30.0 ],
-					"pitchcorrection" : 0,
-					"quality" : "basic",
-					"timestretch" : [ 0 ]
 				}
 
 			}
@@ -4270,7 +4263,7 @@
 					"patching_rect" : [ 38.0, 1308.0, 69.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 17.0, 787.0, 69.0, 22.0 ],
-					"text" : "127.2.0.1"
+					"text" : "127.0.0.1"
 				}
 
 			}
@@ -4284,7 +4277,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 199.0, 1308.0, 57.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 95.0, 787.0, 61.0, 23.0 ]
+					"presentation_rect" : [ 92.0, 786.5, 61.0, 23.0 ]
 				}
 
 			}
@@ -4373,9 +4366,9 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 235.555547833442688, 309.5, 331.0, 50.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1004.0, 366.0, 316.0, 50.0 ],
+					"presentation_rect" : [ 996.0, 366.0, 331.0, 50.0 ],
 					"style" : "rnbomonokai",
-					"text" : "this int on next tick"
+					"text" : "this cue on next tick"
 				}
 
 			}
@@ -4402,7 +4395,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 49.0, 352.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1233.0, 117.0, 87.0, 87.0 ]
+					"presentation_rect" : [ 1233.5, 117.0, 93.0, 93.0 ]
 				}
 
 			}
@@ -4775,14 +4768,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-48", 0 ],
 					"source" : [ "obj-33", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-136", 0 ],
-					"midpoints" : [ 493.5, 98.0, 438.5, 98.0 ],
-					"source" : [ "obj-34", 0 ]
 				}
 
 			}
@@ -5429,13 +5414,6 @@
 			}
 , 			{
 				"name" : "back.wav",
-				"bootpath" : "~/GitHub/orangeballoon/audio",
-				"patcherrelativepath" : "./audio",
-				"type" : "WAVE",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "guitar.wav",
 				"bootpath" : "~/GitHub/orangeballoon/audio",
 				"patcherrelativepath" : "./audio",
 				"type" : "WAVE",
